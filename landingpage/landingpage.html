@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Permata Biru Nusantara - Portal Laut Indonesia</title>
+  <link rel="stylesheet" href="landingpage.css">
+  <script src="searchbar/data.js" defer></script>
+  <script src="searchbar/app.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="#"> <img src="../assets/logo.png" alt="Logo"> </a>
+      <h1>Permata Biru Nusantara</h1>
+    </div>
+    <nav>
+      <a href="../landingpage/landingpage.html">Artikel</a>
+      <a href="#terpopuler">Terpopuler</a>
+      <a href="../tentangpage/tentang.html">Tentang</a>
+    </nav>
+  </header>
+
+  <section class="hero" style="background-image: url('../assets/background.png')">
+    <div class="overlay">
+      <h2>Permata Biru Nusantara</h2>
+      <p>
+        <span class="highlight">Permata Biru Nusantara</span> menghadirkan pesona dan kekayaan laut Indonesia dari
+        sabang sampai merauke.
+        Semua tentang laut, dari biodata, budaya, hingga pelestarian, terangkum di sini.
+      </p>
+      <div class="search-wrap">
+        <div class="search-container">
+          <img src="../assets/icons8-search.svg" alt="Search Icon">
+          <input id="searchInput" type="text" placeholder="Cari artikel..." autocomplete="off">
+        </div>
+        <div id="suggestions" class="suggestion-box" aria-live="polite"></div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <div class="kategori">
+      <button class="aktif">Semua</button>
+      <button>Biota</button>
+      <button>Wisata</button>
+      <button>Konservasi</button>
+      <button>Geologi</button>
+    </div>
+
+    <section class="terpopuler" id="terpopuler">
+      <h3>Terpopuler</h3>
+      <div class="grid">
+        <article>
+          <img src="../assets/kima.png" alt="Kima Raksasa">
+          <h4>Kima Raksasa: Permata Laut yang Terancam</h4>
+          <p class="date">16.02.2025</p>
+          <a href="../kimaraksasa/kimaraksasa.html">Baca selengkapnya →</a>
+        </article>
+        <article>
+          <img src="../assets/teluk-tomini.png" alt="Teluk Tomini">
+          <h4>Teluk Tomini, Permata Laut di Jantung Sulawesi</h4>
+          <p class="date">03.06.2025</p>
+          <a href="../teluktomini/teluktomini.html">Baca selengkapnya →</a>
+        </article>
+        <article>
+          <img src="../assets/penyubelimbing.png" alt="Penyu Belimbing">
+          <h4>Kenapa Penyu Belimbing Disebut Belimbing? Ini Alasannya</h4>
+          <p class="date">16.11.2025</p>
+          <a href="../penyubelimbing/penyubelimbing.html">Baca selengkapnya →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="artikel-terbaru">
+      <h3>Artikel Terbaru</h3>
+      <div class="grid">
+        <article>
+          <img src="../assets/hiupaus.png" alt="Hiu Paus Indonesia Timur">
+          <h4>Konservasi Hiu Paus di Indonesia Timur</h4>
+          <p class="date">12.08.2025</p>
+          <a href="../hiupaus/hiupaus.html">Baca selengkapnya →</a>
+        </article>
+        <article>
+          <img src="../assets/palung-jawa.png" alt="Palung Jawa">
+          <h4>Palung Jawa: Jurang Laut dalam di Selatan Indonesia</h4>
+          <p class="date">18.04.2025</p>
+          <a href="../palungjawa/palungjawa.html">Baca selengkapnya →</a>
+        </article>
+        <article>
+          <img src="../assets/pesonalaut.png" alt="Raja Ampat">
+          <h4>Pesona Laut Pulau Biak dan Kepulauan Padaido</h4>
+          <p class="date">16.11.2025</p>
+          <a href="../pesonalaut/pesonalaut.html">Baca selengkapnya →</a>
+        </article>
+      </div>
+
+      <div class="tombol-tengah">
+        <button class="lihat-lebih">Tampilkan lebih banyak ▼</button>
+      </div>
+
+      <div class="grid tambahan">
+        <article>
+          <img src="../assets/snorkeling-dengan-penyu.png" alt="Laut Derawan">
+          <h4>Snorkeling Bersama Penyu di Laut Derawan</h4>
+          <p class="date">16.11.2025</p>
+          <a href="#">Baca selengkapnya →</a>
+        </article>
+        <article>
+          <img src="../assets/kima.png" alt="Kima Raksasa">
+          <h4>Kima Raksasa: Permata Laut yang Terancam</h4>
+          <p class="date">16.02.2025</p>
+          <a href="../kimaraksasa/kimaraksasa.html">Baca selengkapnya →</a>
+        </article>
+        <article>
+          <img src="../assets/terumbu-karang.png" alt="Terumbu Karang Indonesia">
+          <h4>Terumbu Karang di Indonesia: Permata Laut Dunia</h4>
+          <p class="date">05.05.2025</p>
+          <a href="../terumbukarang/terumbukarang.html">Baca selengkapnya →</a>
+        </article>
+        <article>
+          <img src="../assets/teluk-tomini.png" alt="Teluk Tomini">
+          <h4>Teluk Tomini, Permata Laut di Jantung Sulawesi</h4>
+          <p class="date">03.06.2025</p>
+          <a href="../teluktomini/teluktomini.html">Baca selengkapnya →</a>
+        </article>
+        <article>
+          <img src="../assets/bambu.png" alt="Restorasi Bambu Laut">
+          <h4>Strategi Restorasi Bambu Laut di Perairan Wakatobi</h4>
+          <p class="date">16.11.2025</p>
+          <a href="#">Baca selengkapnya →</a>
+        </article>
+        <article>
+          <img src="../assets/tsunami.png" alt="Tsunami">
+          <h4>Bagaimana Tsunami Bisa Terjadi?</h4>
+          <p class="date">16.11.2025</p>
+          <a href="#">Baca selengkapnya →</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="about">
+        <h3>Permata Biru Nusantara</h3>
+        <p>
+          <span class="highlight">Permata Biru Nusantara</span> menghadirkan pesona dan kekayaan laut Indonesia dari
+          sabang sampai merauke.
+          semua tentang laut, dari biodata, budaya, hingga pelestarian, terangkum di sini.
+        </p>
+        <hr>
+        <div class="links">
+          <a href="#">About</a> |
+          <a href="#">FAQ</a> |
+          <a href="#">Support</a>
+        </div>
+      </div>
+      <div class="contact">
+        <p><strong>Call:</strong> 0812-3456-7890</p>
+        <p><strong>Email:</strong> permatabirudev@gmail.com</p>
+        <p><strong>IKUTI KAMI:</strong></p>
+        <div class="sosmed">
+          <a href="#"><img src="../assets/Youtube.svg"></a>
+          <a href="#"><img src="../assets/Instagram.svg"></a>
+          <a href="#"><img src="../assets/Facebook.svg"></a>
+          <a href="#"><img src="../assets/Twitter.svg"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
